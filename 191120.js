@@ -18,7 +18,7 @@ function mouseClicked() {
 }
 
 function draw() {
-    background(30, 30, 30, 4);
+    background(0, 0, 0, 4);
     stroke(255);
     for (var i = 0; i < particle.length; i++) {
         particle[i].step();
