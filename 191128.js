@@ -198,6 +198,9 @@ class Snake {
             // Add tail to snake
             this.length++;
             frames++;
+            if (frames > 24) {
+                frames = 24;
+            }
             score++;
             return true;
         } else {
